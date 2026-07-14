@@ -19,7 +19,7 @@ export default function GlobalCTA({
   buttonText = "Book a Discovery Call",
   buttonLink = "https://forms.gle/6X3zGnMzgxPAUMxCA",
   secondaryButtonText = "Download Brochure",
-  secondaryButtonLink = "/Tinkr Corporate Brochure 2026.pdf",
+  secondaryButtonLink = "#",
 }: GlobalCTAProps) {
   return (
     <section id="cta" className="py-24 md:py-32 bg-tinkr-yellow relative overflow-hidden text-black">
@@ -66,7 +66,6 @@ export default function GlobalCTA({
             {secondaryButtonText && (
               <a
                 href={secondaryButtonLink}
-                download
                 className="w-full sm:w-auto inline-flex items-center justify-center gap-3 px-10 py-4 bg-transparent text-black font-semibold text-lg rounded-full border-2 border-white/20 hover:border-white hover:bg-white/5 transition-all duration-300 group"
               >
                 <Download className="w-5 h-5 group-hover:-translate-y-1 transition-transform" />

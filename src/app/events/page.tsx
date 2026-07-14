@@ -40,8 +40,9 @@ export default function EventsPage() {
             From building wheelchairs for charity to racing smart robots, explore our comprehensive range of experiential learning programs.
           </p>
           <a
-            href="/Tinkr Corporate Brochure 2026.pdf"
-            download
+            href="/Tinkr-Brochure.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
             className="inline-flex items-center gap-2 px-8 py-3 bg-tinkr-yellow text-black font-semibold rounded-full hover:bg-white transition-all shadow-md"
           >
             Download Brochure
