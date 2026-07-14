@@ -1,0 +1,36 @@
+@import "tailwindcss";
+
+@theme inline {
+  --color-background: var(--bg-primary);
+  --color-foreground: var(--text-main);
+  
+  /* Typography */
+  --font-sans: var(--font-inter);
+  --font-heading: var(--font-plus-jakarta-sans);
+
+  /* Brand Colors */
+  --color-bg-primary: #FFFFFF;
+  --color-bg-secondary: #FAFAF8;
+  --color-tinkr-yellow: #F4C430;
+  --color-tinkr-gold: #E9B949;
+  --color-text-main: #1F1F1F;
+  --color-text-secondary: #666666;
+  --color-border-subtle: #EEEEEE;
+}
+
+:root {
+  --bg-primary: #FFFFFF;
+  --text-main: #1F1F1F;
+}
+
+body {
+  background-color: var(--color-background);
+  color: var(--color-foreground);
+}
+
+/* Base custom utilities if needed */
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
